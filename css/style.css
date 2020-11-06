@@ -11,7 +11,7 @@ body {
 
 /* Dimensione container */
 .container{
-  width: 300px;
+  width: 350px;
   margin: auto;
 }
 
@@ -21,4 +21,25 @@ body {
   margin: 5px 0;
   background-color: green;
   background-size: cover;
+  background-position: center;
+}
+
+.box .layover{
+ width: 100%;
+ height: 100%;
+ background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+#baunei{
+  background-image: url('https://www.vistanet.it/ogliastra/wp-content/uploads/sites/3/2018/06/goloritze-nadir-sardinia.jpg');
+}
+
+#stintino{
+  background-image: url('https://www.marenatura.it/wp-content/uploads/2019/01/MG_2946.jpg');
+}
+
+#maddalena{
+  background-image: url('https://img-prod.tgcom24.mediaset.it/images/2020/06/16/094044097-5393f921-258f-479f-9245-06ed8afbe9b3.jpg');
 }
