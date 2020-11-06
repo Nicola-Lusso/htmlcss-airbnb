@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Font */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.box{
+  width: 100%;
+  height: 100vh;
+  margin: 5px 0;
+  /* background-color: green; */
+  background-size: cover;
+  background-position: center;
+}
+
+.box .layover{
+ width: 100%;
+ height: 100%;
+ background-color: rgba(0, 0, 0, 0.6);
+ position: relative;
+}
+
+.box:hover .layover{
+background-color: rgba(0, 0, 0, 0.0);
+}
+
+/* Carattere e modifiche titolo */
+h2{
+  color: white;
+  text-decoration-style: wavy;
+  text-decoration: overline;
+  text-shadow: 3px 3px black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-transform: uppercase;
+}
+
+.box:hover .layover h2{
+  background-color: rgba(219, 93, 66, 0.75);
+  text-shadow: none;
+  text-decoration: none;
+}
+
+/* Collegamento immagini x4 */
+#porto-cervo{
+  background-image: url('https://www.marinareservation.com/articles/wp-content/uploads/2018/02/Cervo-2.jpg');
+}
+
+#stintino{
+  background-image: url('https://www.marenatura.it/wp-content/uploads/2019/01/MG_2946.jpg');
+}
+
+#maddalena{
+  background-image: url('https://img-prod.tgcom24.mediaset.it/images/2020/06/16/094044097-5393f921-258f-479f-9245-06ed8afbe9b3.jpg');
+}
+
+#alghero{
+  background-image: url('https://www.e-borghi.com/public/borghi/29_11_18-04_25_19-zdc5f8e4fbe74fe6ced6e1327141a69e.jpg');
+}
